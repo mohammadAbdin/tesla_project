@@ -1,0 +1,215 @@
+*{
+    font-family: 'Reddit Mono', monospace;
+    /* font-size: 96%; */
+}
+.header-container{
+    background-image: radial-gradient(54.97% 252.54% at 7.36% -134.72%, rgba(108, 148, 255, .92) 0, rgba(0, 0, 0, .92) 100%);
+    color: white;
+    position: relative;
+    top: 0px;
+    margin-top: -15px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+}
+#experienceModel3{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header-container h4{
+    margin-left: -120px;
+}
+.link{    
+    margin-right: 120px;
+    color: white ;
+    text-decoration: underline; 
+
+
+}
+.link:hover {
+    text-decoration: underline; 
+    text-decoration-thickness: 2px;
+}
+.nav{
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    width: 100%;
+}
+#tesla{
+    color: white;
+    /* flex-grow: 1; */
+    width: 100px;
+    height: 15px;
+}
+
+.tesla-image{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1    
+}
+.nav ul {
+    flex-grow: 7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    list-style-type: none; 
+
+}
+
+
+.nav ul il {
+    color: white;
+    margin-right: 50px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    padding: 5px 10px;
+}
+.nav ul il:hover {
+    background-color: rgb(140, 131, 131); 
+    border-radius: 5px;
+}
+.icons{
+    flex-grow: 1;
+    justify-content: flex-start;
+    display: flex;
+}
+.icons i{
+    color: white;
+    margin-right: 20px; 
+}
+video{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+#titles{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+    color: white;
+}
+
+#titles h3,
+#titles h2,
+#titles h4 {
+    margin: 0; 
+    padding: 5px 0; 
+}
+#numbers{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 130%;
+    color: white;
+}
+#numbers ul il{
+    position: relative;
+    margin-left: 80px; 
+    left: -80px;
+    top: 180px;
+}
+
+#prop{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 130%;
+    color: white;
+}
+#prop ul il{
+    font-size: 90%;
+    position: relative;
+    margin-left: 30px; 
+    width: 10px;
+    left: -115px;
+    top: 180px;
+}
+#buttons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 130%;
+    color: white;
+    top: 180px;
+}
+#Custom_Order{
+    background-color: #ffff;
+    color: black;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;
+    margin: 20px;
+    font-size: 75%;
+    border-radius: 8px; 
+    width: 200px;
+    height: 35px;
+}
+#Demo_Drive{
+    color: white;
+    border: 2px white solid;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center;    
+    font-size: 75%;
+    border-radius: 8px;
+    width: 200px;
+    height: 35px;    
+    transition: all 0.2s ease-in-out;
+}
+#Custom_Order:hover{
+    background-color: #c2bfbf;
+}
+#Demo_Drive:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.fa-comment{
+    font-size: 150%;
+    color: white;
+
+}
+#comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    background-color: black;
+}
+
+ .fa-comment:hover #comment{
+    color: black;
+} 
+#comment:hover {
+    .fa-comment{
+        color: black;
+    }
+    background-color: white; 
+}
+
